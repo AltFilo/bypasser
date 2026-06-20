@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  color: #a0f;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  gap: 12px;
+}
+
+textarea, button {
+  color: #a0f;
+  background: #000;
+}
+
+textarea {
+  width: 80%;
+  border: 2px solid #a0f;
+  border-radius: 12px;
+  padding: 10px;
+  outline: none;
+  box-shadow: none;
+}
+
+button {
+  width: 50%;
+  aspect-ratio: 3 / 1;
+  border: 2px solid #a0f;
+  border-radius: 12px;
+}
